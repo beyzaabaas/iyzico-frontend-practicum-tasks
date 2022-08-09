@@ -1,0 +1,30 @@
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+#search {
+  width: 100%;
+}
+#search table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.card1 {
+  background-color: #eeeeee;
+  margin: 0 100px;
+}
+.card2 {
+  margin: 0 100px;
+}
+.card2 td:first-child {
+  background-color: #7ee5da;
+  padding: 0 140px;
+}
+.card2 td:nth-child(2) {
+  background-color: #70ccc2;
+  padding: 0 50px;
+}
+.card2 td:last-child {
+  background-color: #62b3aa;
+  padding: 0 190px;
+}

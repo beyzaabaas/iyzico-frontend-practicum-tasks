@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+#baslik {
+  color: #85586f;
+}
+/* .nav {
+    text-align: center;
+  }
+   */
+.nav li {
+  display: inline-flex;
+  padding-right: 1rem;
+  /* text-align: center; */
+}
+.product li {
+  list-style-position: inside;
+}
+h2 {
+  color: #ac7d88;
+}
+h3 {
+  color: #deb6ab;
+}
+img {
+  width: 300px;
+}
+.about-us {
+  text-align: left;
+}
