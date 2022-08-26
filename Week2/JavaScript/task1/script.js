@@ -28,7 +28,6 @@ function startTime() {
   var m = today.getMinutes();
   var s = today.getSeconds();
   var d = days[day.getDay()];
-  // add a zero in front of numbers<10
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById("myClock").innerHTML =
