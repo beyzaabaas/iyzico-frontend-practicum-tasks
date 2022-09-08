@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="todoapp d-flex flex-column justify-content-center align-items-center mt-5 w-50 m-auto">
-      <h1>todos</h1>
+      <h1 className='fw-semibold'>todos</h1>
        <div className='d-flex w-75 mt-3'>
        <Form.Control
        className='w-75'
