@@ -30,9 +30,9 @@ function App() {
   }
 
   return (
-    <div className="todoapp d-flex flex-column justify-content-center align-items-center mt-5">
+    <div className="todoapp d-flex flex-column justify-content-center align-items-center mt-5 w-50 m-auto">
       <h1>todos</h1>
-       <div className='d-flex w-50 mt-3'>
+       <div className='d-flex w-75 mt-3'>
        <Form.Control
        className='w-75'
           placeholder="What needs to be done?"
@@ -40,14 +40,14 @@ function App() {
           onChange={(e)=>setNewTodo(e.target.value)}
           
         />
-        <Button className='btn ms-5' onClick={addTodo} >Add Todo</Button>
+        <Button className='btn ms-5 btn-dark' onClick={addTodo} >Add Todo</Button>
        </div>
 
-       <div className='mt-5  w-75 '>
+       <div className='mt-5  w-75 mb-5'>
         
         {
           todoList.map((todoItem)=> 
-          <div key={todoItem.id}  className="d-flex justify-content-between">
+          <div key={todoItem.id}  className="d-flex justify-content-between mb-3">
              <div className='d-flex w-75'>
               <Form.Check 
                 type={'checkbox'}
